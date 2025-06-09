@@ -1,6 +1,11 @@
 # PyEcosystem-Simulator
 Ecosystem simulator with Python. Several elements, such as herbivors and predators, react in a 2D matrix to needs, threats...
 
+![image](https://github.com/user-attachments/assets/ee826e65-7001-461d-8b6c-eb784543e64d)
+![image](https://github.com/user-attachments/assets/1a5c44de-f284-4534-befd-0d99078d8aa8)
+![image](https://github.com/user-attachments/assets/9e3fe587-b1b3-44ca-ab96-6a8c871c95bb)
+
+
 First of all, I'd like to advise that I'm not a native English speaker, so I apologize for any mistake I may commit.
 I'd be thankfull to any type of message related to the code, like corrections, possibilities to optimize it, and suggestions for further implementations.
 
@@ -15,9 +20,11 @@ It's all based in a 2d grid, where many entities are present, and depending on t
 - Interact with evolving environmental conditions
 between others
 
-The project is now on its initial fase, where I'm starting to develop all the base logic. That's why I would be very gratefull to any suggestion. The idea is to create various functionalities, explained below, and all this to be shown through something like Tkinter. The final version should have an interface, and also collect and show all the data from the simulation. All the project works with turns, wich represent an hour.
+The project is now on its initial fase, where I'm starting to develop all the base logic. That's why I would be very gratefull to any suggestion. The idea is to create various functionalities, explained below, and all this to be shown through something like Tkinter (although until I haven't finished all the logic, I will be showing the grid by terminal). The final version should have an interface, and also collect and show all the data from the simulation. All the project works with turns, wich represent an hour.
+
 Functionalities that will be implemented:
--Resources: plants and poodles of water will be regenerated continuosly, depending on the season.
+
+- Resources: plants and poodles of water will be regenerated continuosly, depending on the season.
 - Age: every entity will have a property with the "turn" when they were born, and by compering it with the cycle actual, they'll know their age. Their stats will decrease as they approach their maximum age, and when they reach it they will die.
 - Energy: if they don't eat or drink for a while, they'll lose some. As well as if they're ill or attacked. If is equal to 0, they die.
 - Illness: it will be a class, and will attack to some statistics of the animal at every turn, until the animal die or recovers. May be lethal if the illness is very developed
